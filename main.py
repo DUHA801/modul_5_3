@@ -53,11 +53,11 @@ class House:
         return self.__add__(value)
     def __iadd__(self, value):
         return self.__add__(value)
-#  5. Создаем объект класса House с названием и количеством этажей из примера.
+
 h1 = House('ЖК Эльбрус', 10)
 h2 = House('ЖК Акация', 20)
 
-# Вывод на консоль:
+
 print(h1)
 print(h2)
 
